@@ -1,0 +1,209 @@
+body{
+  overflow-x: hidden;
+}
+.nav-bar{
+  position: absolute;
+  left: 22rem;
+  top: 2rem;
+}
+
+.nav-item{
+  margin: .2rem;
+
+}
+
+.nav-link {
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: large;
+}
+.nav-link:hover{
+  color: #ff5252;
+}
+.nav-link:active{
+  color: #ff5252;
+}
+.malon_alone_word,.highlight-text{
+  color: #ff5252;
+}
+.low_div_image{
+height: 100vh;
+}
+.malon_div{
+  position: absolute;
+  left: 6rem;
+  top: 14rem;
+  color: #fff;
+}
+.malon_div_txt{
+  letter-spacing: 2.12px;
+  font-size: 23px;
+}
+.malon_div_button{
+  border: 3px solid #ff5252;
+  border-radius: 8px;
+  padding: 6px;
+  width: 170px;
+}
+/* about component sytles */
+.about_component{
+  padding-top: 7rem;
+  background-color: rgb(31, 32, 39);
+  height: 100vh;
+  color: #ffffff;
+
+}
+.about_img{
+  border-radius: 10px;
+}
+/* services component */
+.services_component{
+  padding-top: 7rem;
+  background-color: rgb(31, 32, 39);
+  height: 100vh;
+  color: #ffffff;
+  /* overflow-x: hidden; */
+}
+.meals_types{
+  margin-left: 4rem;
+}
+.first-project,.card-deck{
+color: rgb(31, 32, 39);
+}
+/* testimonals compononet */
+.testimonails_component{
+  padding-top: 12rem;
+   background-color:  rgb(31, 32, 39);
+   color: #ffffff;
+   height: 100vh;
+}
+.testimonails_component_row_div{
+  margin-left: 4rem;
+}
+.testimonals{
+  border-radius: 49rem;
+  width: 12rem;
+}
+.client-info{
+  letter-spacing: 2.12px;
+  font-size: 23px;
+  color: #ff5252;
+}
+/* location_component */
+.location_component{
+  padding-top: 12rem;
+  background-color:  rgb(31, 32, 39);
+  color: #ffffff;
+  height: 100vh;
+}
+
+
+
+
+/* media quaries */
+
+@media(max-width : 1024px){
+  .nav-bar{
+    position: absolute;
+    left: 7.7rem;
+  }
+  .malon_div{
+    position: absolute;
+    left: 3rem;
+    top: 18rem;
+    color: #fff;
+  }
+}
+@media(max-width : 768px){
+  .nav-bar{
+    position: absolute;
+    left: 4rem;
+  }
+  .malon_div{
+    position: absolute;
+    left: .8rem;
+    top: 13rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .malon_div_txt{
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  .about_component{
+    padding-top: 11rem;
+    height: 100%;
+    background-color: rgb(31, 32, 39);
+  }
+}
+
+@media(max-width : 425px){
+  .nav-bar{
+    position: absolute;
+    left: 22rem;
+    top: .2rem;
+  }
+  .malon_div{
+    position: absolute;
+    left: 1.3rem;
+    top: 13rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .about_component{
+    padding-top: 10rem;
+    height: 100%;
+    background-color: rgb(31, 32, 39);
+  }
+  .services_component{
+    padding-top: 7rem;
+    background-color: rgb(31, 32, 39);
+    height: 100%;
+    color: #ffffff;
+    /* overflow-x: hidden; */
+  }
+  .meals_types{
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .testimonails_component{
+    padding-top: 12rem;
+     background-color:  rgb(31, 32, 39);
+     color: #ffffff;
+     height: 100%;
+  }
+}
+@media(max-width: 375px){
+  .services_component{
+    width: 395px;
+    /* margin-right: 4rem; */
+  
+    }
+}
+@media(max-width : 576px){
+  .nav-bar{
+    position: absolute;
+    left: 3rem;
+  }
+ 
+}
+
+@media(max-width : 320px){
+  .malon_div{
+    top: 17rem;
+  }
+  .about_component{
+    padding-top: 13rem;
+    /* height: 100%; */
+    /* background-color: rgb(31, 32, 39); */
+  }
+  .meals_types{
+    margin-left: .2rem;
+    margin-top: 3.3rem;
+  }
+  .services_component{
+  width: 350px;
+
+  }
+}
