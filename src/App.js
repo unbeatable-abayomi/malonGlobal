@@ -1,6 +1,7 @@
 import React from 'react';
 // import Test from './Components/Test';
 import Navbar from './Components/Navbar';
+import MobileNavbar from './Components/MobileNavBar';
 import Home from './Components/Home';
 import About from './Components/About';
 import Services from './Components/Services';
@@ -14,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      
+      <MobileNavbar />
   
       <Navbar/>
       <Switch>

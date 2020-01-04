@@ -92,12 +92,41 @@ color: rgb(31, 32, 39);
 }
 /* location_component */
 .location_component{
-  padding-top: 12rem;
+  padding-top: 9rem;
   background-color:  rgb(31, 32, 39);
   color: #ffffff;
   height: 100vh;
 }
+.malon_address{
+  margin-top: 8rem;
+  letter-spacing: 2.12px;
+  font-size: 23px;
+  
+}
+/* contact component */
+.contact_component{
+  padding-top: 9rem;
+  background-color:  rgb(31, 32, 39);
+  color: #ffffff;
+  height: 100vh;
+}
+.form-control{
+  margin-top: -.2rem;
+}
+.form-control-two{
+  margin-bottom:.7rem;
+}
+.mobile_navbar{
+  display: none;
+}
 
+/* mobile navbar */
+.mobile_navbar{
+  color: #ffffff;
+}
+.hambugar{
+  color: #ffffff;
+}
 
 
 
@@ -136,6 +165,12 @@ color: rgb(31, 32, 39);
     height: 100%;
     background-color: rgb(31, 32, 39);
   }
+  .contact_component{
+    padding-top: 9rem;
+    background-color:  rgb(31, 32, 39);
+    color: #ffffff;
+    height: 100%;
+  }
 }
 
 @media(max-width : 425px){
@@ -173,6 +208,19 @@ color: rgb(31, 32, 39);
      color: #ffffff;
      height: 100%;
   }
+  .contact_component{
+    padding-top: 9rem;
+    background-color:  rgb(31, 32, 39);
+    color: #ffffff;
+    height: 100%;
+  }
+  .mobile_navbar{
+    display: block;
+    background-color:  rgb(31, 32, 39);
+  }
+  .nav-bar{
+    display: none;
+  }
 }
 @media(max-width: 375px){
   .services_component{
@@ -205,5 +253,14 @@ color: rgb(31, 32, 39);
   .services_component{
   width: 350px;
 
+  }
+  .contact_component{
+    padding-top: 13rem;
+    background-color:  rgb(31, 32, 39);
+    color: #ffffff;
+    height: 100%;
+  }
+  .nav-bar{
+    display: none;
   }
 }
