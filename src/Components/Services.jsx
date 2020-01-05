@@ -12,12 +12,12 @@ class Services extends Component {
                 <div class="first-project">
                   <div class="card card-projects" style = {{ width : '20rem' }}>
                      <div class="card-body">
-                     <img class="card-img-top" src="../img/breakfast.jpg" className='img-fluid about_img' alt="project"/>
+                     <img class="card-img-top" src="../img/jamicianCurry.jpeg" className='img-fluid about_img' alt="project"/>
                      <div class="card-body">
                        <h5 class="card-title">Breakfast</h5>
                        <p class="card-text"></p>
             
-                       <a href="../img/breakfast.jpg" class="heartbeat btn btn-danger">View</a>
+                       <a href="../img/jamicianCurry.jpeg" class="heartbeat btn btn-danger">View</a>
                      </div>
                   </div>
                    </div>
@@ -32,12 +32,12 @@ class Services extends Component {
                 <div class="first-project">
                   <div class="card card-projects" style = {{ width : '20rem' }}>
                      <div class="card-body">
-                     <img class="card-img-top" src="../img/lunch.jpg" className='img-fluid about_img' alt="project"/>
+                     <img class="card-img-top" src="../img/Eba-11.jpg" className='img-fluid about_img' alt="project"/>
                      <div class="card-body">
                        <h5 class="card-title">Lunch</h5>
                        <p class="card-text"></p>
             
-                       <a href="../img/lunch.jpg" class="heartbeat btn btn-danger">View</a>
+                       <a href="../img/Eba-11.jpg" class="heartbeat btn btn-danger">View</a>
                      </div>
                   </div>
                    </div>
@@ -52,12 +52,12 @@ class Services extends Component {
                 <div class="first-project">
                   <div class="card card-projects" style = {{ width : '20rem' }}>
                      <div class="card-body">
-                     <img class="card-img-top" src="../img/dinner.jpg" className='img-fluid about_img' alt="project"/>
+                     <img class="card-img-top" src="../img/abacha.jpg" className='img-fluid about_img' alt="project"/>
                      <div class="card-body">
-                       <h5 class="card-title">Breakfast</h5>
+                       <h5 class="card-title">Dinner</h5>
                        <p class="card-text"></p>
             
-                       <a href="../img/dinner.jpg" class="heartbeat btn btn-danger">View</a>
+                       <a href="../img/abacha.jpg" class="heartbeat btn btn-danger">View</a>
                      </div>
                   </div>
                    </div>
@@ -71,6 +71,7 @@ class Services extends Component {
                 
 
             </div>
+            
             </div>
 		);
 	}

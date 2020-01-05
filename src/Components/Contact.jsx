@@ -13,7 +13,6 @@ class Contact extends Component {
 
 							<p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
 								We love feedback. Fill out the form below and we'll get back to you as soon as possible.
-								in minus distinctio dolores ipsam.
 							</p>
 						</div>
 

@@ -8,13 +8,14 @@ class Location extends Component {
 					<div class="teams-slides col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<center>
                         <address className='malon_address'>
-                        Developed by <a href="mailto:igwubor@gmail.com">Abayomi Igwubor</a>.<br/>
+                      
                         Visit us at:<br />
-                        4 Law Close<br />
+                        <span className="house_number">4</span>Law Close<br />
                         Unilag Estate,<br/>
                         Magodo Phase One,<br/>
                         Lagos State,Nigeria
-                        </address>
+						</address>
+						Developed by <a href="mailto:igwubor@gmail.com">Abayomi Igwubor</a>.<br/>
 						</center>
 					</div>
 					<div class="teams-slides col-lg-8 col-md-8 col-sm-12 col-xs-12">

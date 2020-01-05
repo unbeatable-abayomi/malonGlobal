@@ -1,266 +1,302 @@
-body{
-  overflow-x: hidden;
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Dancing+Script|Hind|Indie+Flower|Lobster|Long+Cang|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Dancing+Script|Hind|Indie+Flower|Kalam|Lobster|Long+Cang|Pacifico&display=swap');
+/* font-family: 'Cute Font', cursive;
+font-family: 'Long Cang', cursive;
+font-family: 'Hind', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive; */
+body {
+	overflow-x: hidden;
 }
-.nav-bar{
-  position: absolute;
-  left: 22rem;
-  top: 2rem;
+.nav-bar {
+	position: absolute;
+	left: 22rem;
+	top: 2rem;
 }
 
-.nav-item{
-  margin: .2rem;
-
+.nav-item {
+	margin: .2rem;
+	font-family: 'Indie Flower', cursive;
 }
-
+button {
+	font-family: 'Indie Flower', cursive;
+	font-size: 21px;
+}
 .nav-link {
-  color: #ffffff;
-  font-weight: 900;
-  letter-spacing: 2px;
-  font-size: large;
+	color: #ffffff;
+	font-weight: 900;
+	letter-spacing: 2px;
+	font-size: large;
+	font-size: 23px;
 }
-.nav-link:hover{
-  color: #ff5252;
+.nav-link:hover {
+	color: #ff5252;
 }
-.nav-link:active{
-  color: #ff5252;
+.nav-link:active {
+	color: #ff5252;
 }
-.malon_alone_word,.highlight-text{
-  color: #ff5252;
+.malon_alone_word,
+.highlight-text {
+	color: #ff5252;
+
+	font-family: 'Lobster', cursive;
 }
-.low_div_image{
-height: 100vh;
+.low_div_image {
+	height: 100vh;
 }
-.malon_div{
-  position: absolute;
-  left: 6rem;
-  top: 14rem;
-  color: #fff;
+.malon_div {
+	position: absolute;
+	left: 6rem;
+	top: 14rem;
+	color: #fff;
 }
-.malon_div_txt{
-  letter-spacing: 2.12px;
-  font-size: 23px;
+.malon_div_txt {
+	letter-spacing: 2.12px;
+	font-size: 23px;
+	font-family: 'Indie Flower', cursive;
 }
-.malon_div_button{
-  border: 3px solid #ff5252;
-  border-radius: 8px;
-  padding: 6px;
-  width: 170px;
+.malon_div_button {
+	border: 3px solid #ff5252;
+	border-radius: 8px;
+	padding: 6px;
+	width: 170px;
 }
 /* about component sytles */
-.about_component{
-  padding-top: 7rem;
-  background-color: rgb(31, 32, 39);
-  height: 100vh;
-  color: #ffffff;
-
+.about_component {
+	padding-top: 7rem;
+	background-color: rgb(31, 32, 39);
+	height: 100vh;
+	color: #ffffff;
 }
-.about_img{
-  border-radius: 10px;
+.about_img {
+	border-radius: 10px;
 }
 /* services component */
-.services_component{
-  padding-top: 7rem;
-  background-color: rgb(31, 32, 39);
-  height: 100vh;
+.services_component {
+	padding-top: 7rem;
+	background-color: rgb(31, 32, 39);
+	height: 100vh;
   color: #ffffff;
-  /* overflow-x: hidden; */
+  font-family: 'Lobster', cursive;
 }
-.meals_types{
-  margin-left: 4rem;
+.meals_types {
+	margin-left: 2rem;
 }
-.first-project,.card-deck{
-color: rgb(31, 32, 39);
+.first-project,
+.card-deck {
+	color: rgb(31, 32, 39);
 }
 /* testimonals compononet */
-.testimonails_component{
-  padding-top: 12rem;
-   background-color:  rgb(31, 32, 39);
-   color: #ffffff;
-   height: 100vh;
+.testimonails_component {
+	padding-top: 12rem;
+	background-color: rgb(31, 32, 39);
+	color: #ffffff;
+	height: 100vh;
 }
-.testimonails_component_row_div{
-  margin-left: 4rem;
+.testimonails_component_row_div {
+	margin-left: 4rem;
 }
-.testimonals{
-  border-radius: 49rem;
-  width: 12rem;
+.testimonals {
+	border-radius: 49rem;
+	width: 12rem;
 }
-.client-info{
-  letter-spacing: 2.12px;
-  font-size: 23px;
+.client-info {
+	letter-spacing: 2.12px;
+	font-size: 23px;
   color: #ff5252;
+  font-family: 'Lobster', cursive;
 }
 /* location_component */
-.location_component{
-  padding-top: 9rem;
-  background-color:  rgb(31, 32, 39);
-  color: #ffffff;
+.location_component {
+	padding-top: 9rem;
+	background-color: rgb(31, 32, 39);
+	color: #ffffff;
   height: 100vh;
+  font-family: 'Indie Flower', cursive;
 }
-.malon_address{
-  margin-top: 8rem;
-  letter-spacing: 2.12px;
-  font-size: 23px;
-  
+.house_number{
+  font-family: cursive;
+  margin: 1rem;
+}
+.malon_address {
+	margin-top: 8rem;
+	letter-spacing: 2.12px;
+	font-size: 23px;
 }
 /* contact component */
-.contact_component{
-  padding-top: 9rem;
-  background-color:  rgb(31, 32, 39);
-  color: #ffffff;
-  height: 100vh;
+.contact_component {
+	padding-top: 9rem;
+	background-color: rgb(31, 32, 39);
+	color: #ffffff;
+	height: 100vh;
 }
-.form-control{
-  margin-top: -.2rem;
+.form-control {
+	margin-top: -.2rem;
 }
-.form-control-two{
-  margin-bottom:.7rem;
+.form-control-two {
+	margin-bottom: .7rem;
 }
-.mobile_navbar{
-  display: none;
+.mobile_navbar {
+	display: none;
 }
 
 /* mobile navbar */
-.mobile_navbar{
-  color: #ffffff;
+.mobile_navbar {
+	color: #ffffff;
+	font-family: 'Indie Flower', cursive;
 }
-.hambugar{
-  color: #ffffff;
+.hambugar {
+	color: #ffffff;
 }
+.about_component {
+	font-weight: lighter;
+}
+strong{
+  font-weight: 900;
+}
+.card-projects:hover {
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px #000;
+	z-index: 2;
+	color: #000;
+}
+.card-projects {
+	transition: 1s;
 
-
+}
 
 /* media quaries */
 
-@media(max-width : 1024px){
-  .nav-bar{
-    position: absolute;
-    left: 7.7rem;
-  }
-  .malon_div{
-    position: absolute;
-    left: 3rem;
-    top: 18rem;
-    color: #fff;
-  }
+@media (max-width: 1024px) {
+	.nav-bar {
+		position: absolute;
+		left: 7.7rem;
+	}
+	.malon_div {
+		position: absolute;
+		left: 3rem;
+		top: 18rem;
+		color: #fff;
+	}
 }
-@media(max-width : 768px){
-  .nav-bar{
-    position: absolute;
-    left: 4rem;
-  }
-  .malon_div{
-    position: absolute;
-    left: .8rem;
-    top: 13rem;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .malon_div_txt{
-    letter-spacing: 1px;
-    font-size: 20px;
-  }
-  .about_component{
-    padding-top: 11rem;
-    height: 100%;
-    background-color: rgb(31, 32, 39);
-  }
-  .contact_component{
-    padding-top: 9rem;
-    background-color:  rgb(31, 32, 39);
-    color: #ffffff;
-    height: 100%;
-  }
-}
-
-@media(max-width : 425px){
-  .nav-bar{
-    position: absolute;
-    left: 22rem;
-    top: .2rem;
-  }
-  .malon_div{
-    position: absolute;
-    left: 1.3rem;
-    top: 13rem;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .about_component{
-    padding-top: 10rem;
-    height: 100%;
-    background-color: rgb(31, 32, 39);
-  }
-  .services_component{
-    padding-top: 7rem;
-    background-color: rgb(31, 32, 39);
-    height: 100%;
-    color: #ffffff;
-    /* overflow-x: hidden; */
-  }
-  .meals_types{
-    margin-left: 2rem;
-    margin-top: 1rem;
-  }
-  .testimonails_component{
-    padding-top: 12rem;
-     background-color:  rgb(31, 32, 39);
-     color: #ffffff;
-     height: 100%;
-  }
-  .contact_component{
-    padding-top: 9rem;
-    background-color:  rgb(31, 32, 39);
-    color: #ffffff;
-    height: 100%;
-  }
-  .mobile_navbar{
-    display: block;
-    background-color:  rgb(31, 32, 39);
-  }
-  .nav-bar{
-    display: none;
-  }
-}
-@media(max-width: 375px){
-  .services_component{
-    width: 395px;
-    /* margin-right: 4rem; */
-  
-    }
-}
-@media(max-width : 576px){
-  .nav-bar{
-    position: absolute;
-    left: 3rem;
-  }
- 
+@media (max-width: 768px) {
+	.nav-bar {
+		position: absolute;
+		left: 4rem;
+	}
+	.malon_div {
+		position: absolute;
+		left: .8rem;
+		top: 13rem;
+		color: #fff;
+		letter-spacing: 1px;
+	}
+	.malon_div_txt {
+		letter-spacing: 1px;
+		font-size: 20px;
+	}
+	.about_component {
+		padding-top: 11rem;
+		height: 100%;
+		background-color: rgb(31, 32, 39);
+	}
+	.contact_component {
+		padding-top: 9rem;
+		background-color: rgb(31, 32, 39);
+		color: #ffffff;
+		height: 100%;
+	}
 }
 
-@media(max-width : 320px){
-  .malon_div{
-    top: 17rem;
-  }
-  .about_component{
-    padding-top: 13rem;
-    /* height: 100%; */
-    /* background-color: rgb(31, 32, 39); */
-  }
-  .meals_types{
-    margin-left: .2rem;
-    margin-top: 3.3rem;
-  }
-  .services_component{
-  width: 350px;
+@media (max-width: 425px) {
+	.nav-bar {
+		position: absolute;
+		left: 22rem;
+		top: .2rem;
+	}
+	.malon_div {
+    padding-top: 5rem;
+    position: absolute;
+		left: 1.3rem;
+		top: 13rem;
+		color: #fff;
+		letter-spacing: 1px;
+	}
+	.about_component {
+		padding-top: 10rem;
+		height: 100%;
+		background-color: rgb(31, 32, 39);
+	}
+	.services_component {
+		padding-top: 3rem;
+		background-color: rgb(31, 32, 39);
+		height: 100%;
+		color: #ffffff;
+		/* overflow-x: hidden; */
+	}
+	.meals_types {
+		margin-left: -1rem;
+		/* margin-top: 1rem; */
+	}
+	.testimonails_component {
+		padding-top: 4rem;
+		background-color: rgb(31, 32, 39);
+		color: #ffffff;
+		height: 100%;
+		margin-left: -4rem;
+	}
+	.contact_component {
+		padding-top: 9rem;
+		background-color: rgb(31, 32, 39);
+		color: #ffffff;
+		height: 100%;
+	}
+	.mobile_navbar {
+		display: block;
+		background-color: rgb(31, 32, 39);
+	}
+	.nav-bar {
+		display: none;
+	}
+}
+@media (max-width: 375px) {
+	.services_component {
+		width: 395px;
+		/* margin-right: 4rem; */
+	}
+}
+@media (max-width: 576px) {
+	.nav-bar {
+		position: absolute;
+		left: 3rem;
+	}
+}
 
-  }
-  .contact_component{
-    padding-top: 13rem;
-    background-color:  rgb(31, 32, 39);
-    color: #ffffff;
-    height: 100%;
-  }
-  .nav-bar{
-    display: none;
-  }
+@media (max-width: 320px) {
+	.malon_div {
+		top: 17rem;
+	}
+	.about_component {
+		padding-top: 13rem;
+		/* height: 100%; */
+		/* background-color: rgb(31, 32, 39); */
+	}
+	.meals_types {
+		margin-left: .2rem;
+		margin-top: 3.3rem;
+	}
+	.services_component {
+		width: 350px;
+	}
+	.contact_component {
+		padding-top: 13rem;
+		background-color: rgb(31, 32, 39);
+		color: #ffffff;
+		height: 100%;
+	}
+	.nav-bar {
+		display: none;
+	}
 }

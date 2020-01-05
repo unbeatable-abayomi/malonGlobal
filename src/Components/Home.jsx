@@ -12,7 +12,7 @@ class Home extends Component {
                 </div>
                 <center>
                 <div className='malon_div'>
-                    <h2 className='malon_tasty_meal'><span className="malon_alone_word">Malon</span> Tasty Meals</h2>
+                    <h2 className='malon_tasty_meal'><span className="malon_alone_word">Malon</span> Tastee Meals</h2>
                     <p className='malon_div_txt'>Best Taste</p>
                     <p className='malon_div_txt'>Always Served Hot</p>
                     <p className='malon_div_txt'>Get the best Healthy Food You Deserve</p>
