@@ -13,7 +13,7 @@ import React, { Component } from 'react'
             <center>   
             <h2><span class="highlight-text">About</span></h2>
              
-                <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">At Malon Dishes we provide a combination of excellent food at value pricing, with fun packaging and atmosphere. Malon Dishes is the answer to an increasing demand for snack-type fast food, to be consumed while window shopping and walking around inside a shopping mall.</p>
+                <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">At Malon Dishes we provide a combination of excellent food at value pricing, with fun packaging and atmosphere. Malon Dishes is the answer to an increasing demand for good food and snack-type fast food, to be consumed while window shopping and walking around inside a shopping mall.</p>
                 </center>
                 </div>
             
@@ -27,19 +27,19 @@ import React, { Component } from 'react'
                 <div class="row"> 
                     <div class="col-md-11">
                         <strong>Breakfast</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iusto, natus est ducimus saepe laborum</p>
+                        <p>We offer a variety of dishes to help start your day.</p>
                     </div>
                 </div>
                 <div class="row"> 
                     <div class="col-md-11">
                         <strong>Lunch</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iusto, natus est ducimus saepe laborum Lorem ipsum dolor sit amet.</p>
+                        <p>We offer a variety of dishes to help keep your day rolling and keep you active.</p>
                     </div>
                 </div>
                 <div class="row"> 
                     <div class="col-md-11">
                         <strong>Dinner</strong>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iusto, natus est ducimus saepe laborum Lorem ipsum dolor sit amet.</p>
+                        <p>We offer a variety of dishes you can choose from, the prefect meal you'll love</p>
                     </div>
                 </div>
             </div>

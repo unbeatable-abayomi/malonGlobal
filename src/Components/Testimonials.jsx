@@ -7,7 +7,7 @@ class Testimonials extends Component {
 				<div id="teams" className="row testimonails_component_row_div">
 					<div class="teams-slides col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<center>
-							<img src="../img/img-teams/team2.jpg" className="img-fluid testimonals" alt="nsns" />
+							<img src="../img/6116-08915748en_Masterfile.jpg" className="img-fluid testimonals" alt="nsns" />
 							<p class="client-info">Chris Willam</p>
 							<p className="client-info-two">A single trial will keep you asking for more </p>
 						</center>
@@ -23,7 +23,7 @@ class Testimonials extends Component {
 
                     <div class="teams-slides col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <center>
-						<img src="../img/img-teams/team3.jpg" className="img-fluid testimonals" alt="lll" />
+						<img src="../img/happy-woman-eating-summer-salad.jpg" style = {{ height : '18rem' }} className="img-fluid testimonals" alt="lll" />
 						<p class="client-info">Michel Kimte</p>
 						<p className="client-info-two">I am so stuck to Malon Dishes,they have delicious meals</p>
                         </center>

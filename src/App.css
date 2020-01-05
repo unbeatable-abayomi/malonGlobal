@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cute+Font|Dancing+Script|Hind|Indie+Flower|Lobster|Long+Cang|Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cute+Font|Dancing+Script|Hind|Indie+Flower|Kalam|Lobster|Long+Cang|Pacifico&display=swap');
-/* font-family: 'Cute Font', cursive;
-font-family: 'Long Cang', cursive;
-font-family: 'Hind', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Dancing Script', cursive; */
+
 body {
 	overflow-x: hidden;
 }
@@ -29,7 +23,7 @@ button {
 	font-weight: 900;
 	letter-spacing: 2px;
 	font-size: large;
-	font-size: 23px;
+  font-size: 23px;
 }
 .nav-link:hover {
 	color: #ff5252;
@@ -166,6 +160,22 @@ strong{
 	transition: 1s;
 
 }
+.skill-set-text-list::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ff5252;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.skill-set-text-list:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
 
 /* media quaries */
 
@@ -259,7 +269,16 @@ strong{
 	}
 	.nav-bar {
 		display: none;
-	}
+  }
+  iframe{
+    max-width: 420px;
+  }
+  .malon_address {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    letter-spacing: 2.12px;
+    font-size: 23px;
+  }
 }
 @media (max-width: 375px) {
 	.services_component {
