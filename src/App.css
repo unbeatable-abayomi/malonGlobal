@@ -176,6 +176,10 @@ strong{
 	transform: scaleX(1);
 	transform-origin: bottom left;
 }
+.slide-in-fwd-top {
+	-webkit-animation: slide-in-fwd-top 3000ms linear both;
+	animation: slide-in-fwd-top 3000ms linear both;
+}
 
 /* media quaries */
 

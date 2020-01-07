@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Home extends Component {
 	render() {
 		return (
-			<div className="home_component">
+			<div className="home_component slide-in-fwd-top">
 				<div className="low_div">
 					<img className="img-fluid low_div_image" src="../img/slider-img-1.jpg" width="100%" alt="jsk" />
 				</div>
